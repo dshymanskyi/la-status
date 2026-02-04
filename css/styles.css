@@ -440,12 +440,12 @@ input:checked + .slider:before {
 
 .post-description-title.normal {
   &:before {
-    color: $normal;
-    border: 1.5px solid $normal;
+    color: var(--normal);
+    border: 1.5px solid var(--normal);
   }
 
   a:hover {
-    color: $normal;
+    color: var(--normal);
   }
 }
 
@@ -630,7 +630,7 @@ input:checked + .slider:before {
 
   .site-title {
     :first-child {
-      color: $normal;
+      color: var(--normal);
     }
   }
 ;
@@ -678,7 +678,7 @@ input:checked + .slider:before {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 800;
-  color: $normal;
+  color: var(--normal);
 }
 
 .update {
@@ -835,7 +835,7 @@ footer {
   font-weight: 700;
 
   &.normal {
-    color: $normal;
+    color: var(--normal);
   }
 
   &.degradation {
@@ -1064,7 +1064,7 @@ footer {
   align-items: center;
 
   &.normal {
-    background: $normal;
+    background: var(--normal);
   }
 
   &.outage {
@@ -1084,7 +1084,7 @@ footer {
   display: inline;
 
   &.resolved {
-    color: $normal;
+    color: var(--normal);
   }
 
   &.update {
