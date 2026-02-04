@@ -2,8 +2,18 @@
 #Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// Imports
-@import "base";
+
+// Colors //
+:root {
+  --primary: #007bff;   /* if you had variables */
+  --outage: #F44236;
+  --degradation: #F6931E;
+  --withoutIncident: #BAEAC2;
+  --normal: #4BC65C;
+  --gray: #BCBCBC;
+  --footer: #F7F7F7;
+  --clusterBlue: #1185F6;
+}
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -612,15 +622,6 @@ input:checked + .slider:before {
 .back-to-list-archive.view-archive {
   padding: 0;
 }
-
-// Colors //
-$outage: #F44236;
-$degradation: #F6931E;
-$withoutIncident: #BAEAC2;
-$normal: #4BC65C;
-$gray: #BCBCBC;
-$footer: #F7F7F7;
-$clusterBlue: #1185F6;
 
 .markdown-body.normal {
   .statusImage {
