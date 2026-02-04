@@ -1,9 +1,3 @@
----
-#Front matter comment to ensure Jekyll properly reads file.
----
-
-
-// Colors //
 :root {
   --primary: #007bff;   /* if you had variables */
   --outage: #F44236;
