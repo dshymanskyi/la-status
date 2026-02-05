@@ -2,7 +2,7 @@ name: Refresh
 
 on:
   push:
-    branches: ["second"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
