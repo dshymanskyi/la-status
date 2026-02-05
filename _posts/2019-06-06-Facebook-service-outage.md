@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Facebook service outage
+title: Facebooks service outage
 status: resolved
 severity: outage
 date: 2019-06-06 11:10 
