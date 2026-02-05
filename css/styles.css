@@ -78,7 +78,7 @@
 }
 
 .index-system {
-  border-bottom: 1px solid $gray;
+  border-bottom: 1px solid var(--gray);
   padding: 1rem 0;
 }
 
@@ -144,11 +144,11 @@
 }
 
 input:checked + .slider {
-  background-color: $degradation;
+  background-color: var(--degradation);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px $degradation;
+  box-shadow: 0 0 1px var(--degradation);
 }
 
 input:checked + .slider:before {
@@ -178,7 +178,7 @@ input:checked + .slider:before {
   a {
     font-size: small;
     text-decoration: none;
-    color: $gray;
+    color: var(--gray);
     padding: 0 0.2rem;
   }
 
@@ -192,13 +192,13 @@ input:checked + .slider:before {
   padding: 13px 40px;
   background-color: white;
   border-radius: 5px;
-  border: 1px solid $gray;
+  border: 1px solid var(--gray);
   cursor: pointer;
-  color: $gray;
+  color: var(--gray);
 
   &:hover {
-    border-color: $degradation;
-    color: $degradation;
+    border-color: var(--degradation);
+    color: var(--degradation);
   }
 
   &:focus {
@@ -288,7 +288,7 @@ input:checked + .slider:before {
 
 .timelineDay {
   position: relative;
-  border-left: 1px solid $gray;
+  border-left: 1px solid var(--gray);
 
 
   &::before {
@@ -309,7 +309,7 @@ input:checked + .slider:before {
 
 .timelineDayIncidents {
   position: relative;
-  border-left: 1px solid $gray;
+  border-left: 1px solid var(--gray);
 
 
   &::before {
@@ -360,7 +360,7 @@ input:checked + .slider:before {
   font-family: Open Sans, sans-serif;
   font-size: 13px;
   font-weight: 600;
-  background-color: $outage;
+  background-color: var(--outage);
   padding: 2px 12px;
   text-transform: uppercase;
   color: white;
@@ -370,7 +370,7 @@ input:checked + .slider:before {
 
 .incident.degradation {
   .label {
-    background-color: $degradation;
+    background-color: var(--degradation);
   }
 }
 
@@ -414,7 +414,7 @@ input:checked + .slider:before {
   color: black;
 
   &:hover {
-    color: $degradation;
+    color: var(--degradation);
   }
 }
 
@@ -451,23 +451,23 @@ input:checked + .slider:before {
 
 .post-description-title.outage {
   &:before {
-    color: $outage;
-    border: 1.5px solid $outage;
+    color: var(--outage);
+    border: 1.5px solid var(--outage);
   }
 
   a:hover {
-    color: $outage;
+    color: var(--outage);
   }
 }
 
 .post-description-title.degradation {
   &:before {
-    color: $degradation;
-    border: 1.5px solid $degradation;
+    color: var(--degradation);
+    border: 1.5px solid var(--degradation);
   }
 
   a:hover {
-    color: $degradation;
+    color: var(--degradation);
   }
 }
 
@@ -488,9 +488,9 @@ input:checked + .slider:before {
   width: 11px;
   text-align: center;
   background: white;
-  color: $degradation;
+  color: var(--degradation);
   vertical-align: middle;
-  border: 1.5px solid $degradation;
+  border: 1.5px solid var(--degradation);
 }
 
 .post-resolved {
@@ -572,7 +572,7 @@ input:checked + .slider:before {
 }
 
 .date-archive {
-  color: $gray;
+  color: var(--gray);
   padding: 0 0 0.5rem 0;
 }
 
@@ -649,7 +649,7 @@ input:checked + .slider:before {
 
   .site-title {
     :first-child {
-      color: $outage;
+      color: var(--outage);
     }
   }
 ;
@@ -668,7 +668,7 @@ input:checked + .slider:before {
 
   .site-title {
     :first-child {
-      color: $degradation;
+      color: var(--degradation);
     }
   }
 ;
@@ -685,7 +685,7 @@ input:checked + .slider:before {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 800;
-  color: $degradation;
+  color: var(--degradation);
 }
 
 .open-sans-11-bold {
@@ -774,7 +774,7 @@ body {
 }
 
 footer {
-  background-color: $footer;
+  background-color: var(--footer);
   margin: 0 -1em;
 }
 
@@ -801,7 +801,7 @@ footer {
   a {
     font-size: small;
     text-decoration: none;
-    color: $gray;
+    color: var(--gray);
   }
 
   a:hover {
@@ -839,11 +839,11 @@ footer {
   }
 
   &.degradation {
-    color: $degradation;
+    color: var(--degradation);
   }
 
   &.outage {
-    color: $outage;
+    color: var(--outage);
   }
 }
 
@@ -858,7 +858,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 2% 0 2% 0;
-  color: $gray;
+  color: var(--gray);
 
   span {
     font-family: 'Open Sans', sans-serif;
@@ -880,7 +880,7 @@ footer {
     flex: 1;
     height: 2.3rem;
     margin: 0 3px;
-    background: $withoutIncident;
+    background: var(--withoutIncident);
     position: relative;
     border-radius: 4px;
 
@@ -921,11 +921,11 @@ footer {
   }
 
   span.degradation {
-    background: $degradation;
+    background: var(--degradation);
   }
 
   span.outage {
-    background: $outage;
+    background: var(--outage);
   }
 }
 
@@ -939,7 +939,7 @@ footer {
   padding: 1.1rem 3rem;
   margin: 1rem 0;
   display: flex;
-  background-color: $degradation;
+  background-color: var(--degradation);
   border-radius: 10px;
   justify-content: space-between;
   align-items: center;
@@ -980,9 +980,9 @@ footer {
     width: 11px;
     text-align: center;
     background: white;
-    color: $gray;
+    color: var(--gray);
     vertical-align: middle;
-    border: 1.5px solid $gray;
+    border: 1.5px solid var(--gray);
     margin-top: -4px;
   }
 }
@@ -1015,12 +1015,12 @@ footer {
   text-transform: uppercase;
 
   &.outage {
-    background: $outage;
+    background: var(--outage);
     display: inline-block;
   }
 
   &.degradation {
-    background: $degradation;
+    background: var(--degradation);
     display: inline-block;
   }
 }
@@ -1029,7 +1029,7 @@ footer {
   padding: 2px 7px;
   display: inline-block;
   border-radius: 10px;
-  background: $clusterBlue;
+  background: var(--clusterBlue);
   color: #fff;
   margin-right: 2px;
   font-family: Open Sans, sans-serif;
@@ -1068,12 +1068,12 @@ footer {
   }
 
   &.outage {
-    background: $outage;
+    background: var(--outage);
 
   }
 
   &.degradation {
-    background: $degradation;
+    background: var(--degradation);
   }
 }
 
@@ -1092,7 +1092,7 @@ footer {
   }
 
   &.investigating {
-    color: $degradation;
+    color: var(--degradation);
   }
 
 }
