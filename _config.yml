@@ -1,6 +1,6 @@
 # url: https://status.liveagent.com
 url: https://dshymanskyi.github.io
-baseurl: /la-status/
+baseurl: /la-status
 author: Dimko
 
 permalink: pretty
@@ -14,11 +14,7 @@ paginate_path: '/archive/page:num/'
 
 kramdown:
   parse_block_html: true
-
-exclude:
-  - _scss
-  - css/*.scss
-
+  
 sass:
-#  sass_dir:         _scss
+  sass_dir:         _scss
   style:            compressed
